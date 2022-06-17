@@ -1,11 +1,10 @@
 GIT
-  remote: git://github.com/rails/activemodel-serializers-xml.git
-  revision: 570ee7ed33d60e44ca1f3ccbec3d1fbf61d52cbf
+  remote: https://github.com/rails/activemodel-serializers-xml.git
+  revision: 32841fdf59c2297436177a8e6d84f4f17e048005
   specs:
-    activemodel-serializers-xml (1.0.1)
-      activemodel (> 5.x)
-      activerecord (> 5.x)
-      activesupport (> 5.x)
+    activemodel-serializers-xml (1.0.2)
+      activemodel (>= 5.0.0.a)
+      activesupport (>= 5.0.0.a)
       builder (~> 3.1)
 
 PATH
@@ -68,7 +67,8 @@ GEM
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     hashie (3.4.4)
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     json (1.8.3)
     jwt (1.5.4)
     loofah (2.0.3)
